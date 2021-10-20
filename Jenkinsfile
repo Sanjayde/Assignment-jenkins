@@ -12,6 +12,7 @@ pipeline {
       stage('RUN') {
         steps {
                  sh 'docker run -d -p 80:80 test-app:v1'
-        }
+       	    }
+      }
     }
 }
