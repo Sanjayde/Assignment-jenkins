@@ -11,7 +11,7 @@ pipeline {
         }
       stage('RUN') {
         steps {
-                 sh 'docker run -d -p 80:80 test-app:v1'
+                 sh 'docker run -d -p 8040:80 test-app:v1'
        	    }
       }
     }
